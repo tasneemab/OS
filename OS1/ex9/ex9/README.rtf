@@ -1,0 +1,122 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c99985\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww33400\viewh21000\viewkind0
+\deftab791
+\pard\tx791\pardeftab791\pardirnatural\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 /**
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * Pure C 2019
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * ex9a.c
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * Created on: Jan 16, 2019
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *        Created by Tasneem Abu Odeh - id: 314902685 - login: tasnimab.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *             Jouana Nusralla - id:312315104 - login: jouananu.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *  This program generates random number between 2 and 1000 and it finds
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * which of them are prime. after that adds them to an array that is in
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * a shared memory, then after it reaches to fill the last one it makes
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * sure they dont clash by using semaphore. after that it will print
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * NOTE : it will take a minute or two , because of the sleep function.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *  Copyright \'a9 2018 Tasneem Abu Odeh. All rights reserved.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  */\
+//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97-\
+/**
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * Pure C 2019
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * ex9b.c
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * Created on: Jan 16, 2019
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *        Created by Tasneem Abu Odeh - id: 314902685 - login: tasnimab.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *             Jouana Nusralla - id:312315104 - login: jouananu.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *  This programs father forks two sons and in each son makes an arrays
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * size that is 10 , and then generates random numbers into each array from
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * 1 to 100 and then it generates in the father random numbers aswell from 1 to
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * 100 and sends it to the sons, first son to find all the generated
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * numbers is the winner. and the mutex blocks the posssiblity of them
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  * finishing at same time. and "Race" problemss
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *  Copyright \'a9 2018 Tasneem Abu Odeh. All rights reserved.
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  *
+\f1\fs24 \cf2 \cb3 \
+
+\f0\fs32 \cf2 \cb3  */}

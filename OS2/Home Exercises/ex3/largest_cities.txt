@@ -1,0 +1,31 @@
+2016 rankCityState2016 estimate2010 CensusChange2014 land area2010 population densityLocation
+1New York CityNew York8,537,6738,175,133+4.43%302.6 sq mi783.8 km227,012 per sq mi10,430 km−240.6643°N 73.9385°W
+2Los AngelesCalifornia3,976,3223,792,621+4.84%468.7 sq mi1,213.9 km28,092 per sq mi3,124 km−234.0194°N 118.4108°W
+3ChicagoIllinois2,704,9582,695,598+0.35%227.6 sq mi589.6 km211,842 per sq mi4,572 km−241.8376°N 87.6818°W
+4HoustonTexas2,303,4822,100,263+9.68%599.6 sq mi1,552.9 km23,501 per sq mi1,352 km−229.7805°N 95.3863°W
+5PhoenixArizona1,615,0171,445,632+11.72%516.7 sq mi1,338.3 km22,798 per sq mi1,080 km−233.5722°N 112.0880°W
+6PhiladelphiaPennsylvania1,567,8721,526,006+2.74%134.1 sq mi347.3 km211,379 per sq mi4,394 km−240.0094°N 75.1333°W
+7San AntonioTexas1,492,5101,327,407+12.44%460.9 sq mi1,193.8 km22,880 per sq mi1,112 km−229.4724°N 98.5251°W
+8San DiegoCalifornia1,406,6301,307,402+7.59%325.2 sq mi842.2 km24,020 per sq mi1,552 km−232.8153°N 117.1350°W
+9DallasTexas1,317,9291,197,816+10.03%340.5 sq mi881.9 km23,518 per sq mi1,358 km−232.7757°N 96.7967°W
+10San JoseCalifornia1,025,350945,942+8.39%176.6 sq mi457.3 km25,359 per sq mi2,069 km−237.2969°N 121.8193°W
+11AustinTexas947,890790,390+19.93%322.48 sq mi835.2 km22,653 per sq mi1,024 km−230.3072°N 97.7560°W
+12JacksonvilleFlorida880,619821,784+7.16%747.0 sq mi1,934.7 km21,120 per sq mi433 km−230.3370°N 81.6613°W
+13San FranciscoCalifornia870,887805,235+8.15%46.9 sq mi121.4 km217,179 per sq mi6,633 km−237.7751°N 122.4193°W
+14ColumbusOhio860,090787,033+9.28%217.2 sq mi562.5 km23,624 per sq mi1,399 km−239.9848°N 82.9850°W
+15IndianapolisIndiana855,164820,445+4.23%361.4 sq mi936.1 km22,270 per sq mi876 km−239.7767°N 86.1459°W
+16Fort WorthTexas854,113741,206+15.23%339.8 sq mi880.1 km22,181 per sq mi842 km−232.7795°N 97.3463°W
+17CharlotteNorth Carolina842,051731,424+15.12%297.7 sq mi771.0 km22,457 per sq mi949 km−235.2087°N 80.8307°W
+18SeattleWashington704,352608,660+15.72%83.9 sq mi217.4 km27,251 per sq mi2,800 km−247.6205°N 122.3509°W
+19DenverColorado693,060600,158+15.48%153.0 sq mi396.3 km23,923 per sq mi1,515 km−239.7618°N 104.8806°W
+20El PasoTexas683,080649,121+5.23%255.2 sq mi661.1 km22,543 per sq mi982 km−231.8484°N 106.4270°W
+21WashingtonDistrict of Columbia681,170601,723+13.20%61.0 sq mi158.1 km29,856 per sq mi3,806 km−238.9041°N 77.0171°W
+22BostonMassachusetts673,184617,594+9.00%48.3 sq mi125.0 km212,793 per sq mi4,939 km−242.3320°N 71.0202°W
+23DetroitMichigan672,795713,777−5.74%138.8 sq mi359.4 km25,144 per sq mi1,986 km−242.3830°N 83.1022°W
+24NashvilleTennessee660,388601,222+9.84%475.1 sq mi1,230.8 km21,265 per sq mi489 km−236.1718°N 86.7850°W
+25MemphisTennessee652,717646,889+0.90%315.1 sq mi816.0 km22,053 per sq mi793 km−235.1035°N 89.9785°W
+26PortlandOregon639,863583,776+9.61%133.4 sq mi345.6 km24,375 per sq mi1,689 km−245.5370°N 122.6500°W
+27Oklahoma CityOklahoma638,367579,999+10.06%606.4 sq mi1,570.6 km2956 per sq mi369 km−235.4671°N 97.5137°W
+28Las VegasNevada632,912583,756+8.42%135.8 sq mi351.8 km24,298 per sq mi1,660 km−236.2277°N 115.2640°W
+29LouisvilleKentucky616,261597,337+3.17%325.2 sq mi842.4 km21,837 per sq mi709 km−238.1781°N 85.6667°W
+30BaltimoreMaryland614,664620,961−1.01%80.9 sq mi209.6 km27,672 per sq mi2,962 km−239.3002°N 76.6105°W

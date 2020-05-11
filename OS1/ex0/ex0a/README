@@ -1,0 +1,21 @@
+File: ex0a.c 
+ Pure C
+ =======
+ Written by: Malak Azzam + Rasha Souri,
+         id: 316024611 + 207090085
+         login: malakaz +rashasa
+
+The program creat a demanic array (two dimensional), and find which row is the biggest one,
+takes a row and checks its cols if its bigger that the other rows returns the number of the row.
+
+
+
+ Compile: gcc -Wall ex0a.c -o ex0a
+
+ Run: ex0a
+
+ Input: File that contains numbers.
+
+ Output: The number of the biggest row.
+
+ Running Time:N^3, We have 3 for loops nested.
